@@ -1,0 +1,57 @@
+
+java -classpath .;AwsSDK-3rdparty.jar MultipartUploadDemo
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.wdt.v4.kamino" version="1.0.0" android-versionCode="1" ios-CFBundleVersion="BUILD_NUMBER" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Kamino</name>
+  <description>iOS / Android Mobile Application</description>
+  <author email="info@mycloud.com" href="http://developer.mycloud.com/">Mobile Client Team</author>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-intent href="tel:*"/>
+  <allow-intent href="sms:*"/>
+  <allow-intent href="mailto:*"/>
+  <allow-intent href="geo:*"/>
+  <platform name="android">
+    <allow-intent href="market:*"/>
+    <icon src="resources/android/icon/drawable-mdpi-icon.png" density="mdpi"/>
+    <icon src="resources/android/icon/drawable-hdpi-icon.png" density="hdpi"/>
+    <icon src="resources/android/icon/drawable-xhdpi-icon.png" density="xhdpi"/>
+    <icon src="resources/android/icon/drawable-xxhdpi-icon.png" density="xxhdpi"/>
+    <icon src="resources/android/icon/drawable-xxxhdpi-icon.png" density="xxxhdpi"/>
+    <splash src="resources/android/splash/splash-port-mdpi.png" density="port-mdpi"/>
+    <splash src="resources/android/splash/splash-port-hdpi.png" density="port-hdpi"/>
+  </platform>
+  <platform name="ios">
+    <allow-intent href="itms:*"/>
+    <allow-intent href="itms-apps:*"/>
+    <icon src="resources/ios/icon/app-icon-setting@3x.png" width="87" height="87"/>
+    <icon src="resources/ios/icon/app-icon-setting@2x.png" width="58" height="58"/>
+    <icon src="resources/ios/icon/app-icon-spotlight.png" width="40" height="40"/>
+    <icon src="resources/ios/icon/app-icon-spotlight@2x.png" width="80" height="80"/>
+    <icon src="resources/ios/icon/app-icon-iphone@3x.png" width="180" height="180"/>
+    <icon src="resources/ios/icon/app-icon-iphone@2x.png" width="120" height="120"/>
+    <icon src="resources/ios/icon/app-icon-ipad@2x.png" width="152" height="152"/>
+    <icon src="resources/ios/icon/app-icon-ipad.png" width="76" height="76"/>
+    <icon src="resources/ios/icon/app-icon-spotlight@3x.png" width="120" height="120"/>
+    <splash src="resources/ios/splash/splash@2x.png" width="750" height="1334"/>
+    <splash src="resources/ios/splash/splash.png" width="375" height="667"/>
+  </platform>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="android-minSdkVersion" value="22"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <preference name="xwalkVersion" value="15+"/>
+  <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect"/>
+  <preference name="xwalkMode" value="embedded"/>
+  <preference name="xwalkMultipleApk" value="true"/>
+  <preference name="SplashScreen" value="screen"/>
+  <preference name="SplashScreenDelay" value="3000"/>
+  <feature name="StatusBar">
+    <param name="ios-package" onload="true" value="CDVStatusBar"/>
+  </feature>
+  <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
+</widget>

@@ -1,0 +1,5 @@
+chiriyankandath_c@cipson ~ -  $ javac -classpath AwsSDK.jar MultipartUploadDemo.java
+
+chiriyankandath_c@cipson ~ -  $ java -classpath AwsSDK.jar:. MultipartUploadDemo /Users/chiriyankandath_c/Desktop/funny/seahorse.jpg
+
+java -classpath AwsSDK.jar:. MultipartUploadDemo /Users/chiriyankandath_c/Desktop/funny/coconut 3685
